@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salary_Hike_Expected__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( (Total_Experience__c !=0  &amp;&amp;  Current_Salary__c !=0), (( Expected_Salary__c  -  Current_Salary__c ) /  Current_Salary__c ), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If the candidate is a fresher,i.e has 0 months of total experience.Hike is set to 0.</inlineHelpText>
+    <label>Salary Hike Expected</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

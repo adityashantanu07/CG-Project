@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Skills</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Java</fullName>
+                <default>false</default>
+                <label>Java</label>
+            </value>
+            <value>
+                <fullName>Python</fullName>
+                <default>false</default>
+                <label>Python</label>
+            </value>
+            <value>
+                <fullName>HTML/CSS</fullName>
+                <default>false</default>
+                <label>HTML/CSS</label>
+            </value>
+            <value>
+                <fullName>Salesforce Development</fullName>
+                <default>false</default>
+                <label>Salesforce Development</label>
+            </value>
+            <value>
+                <fullName>Data Analysis</fullName>
+                <default>false</default>
+                <label>Data Analysis</label>
+            </value>
+            <value>
+                <fullName>SQL</fullName>
+                <default>false</default>
+                <label>SQL</label>
+            </value>
+            <value>
+                <fullName>AWS Certification</fullName>
+                <default>false</default>
+                <label>AWS Certification</label>
+            </value>
+            <value>
+                <fullName>Network Security</fullName>
+                <default>false</default>
+                <label>Network Security</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Team Collaboration</fullName>
+                <default>false</default>
+                <label>Team Collaboration</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Problem Solving</fullName>
+                <default>false</default>
+                <label>Problem Solving</label>
+            </value>
+            <value>
+                <fullName>Time Management</fullName>
+                <default>false</default>
+                <label>Time Management</label>
+            </value>
+            <value>
+                <fullName>Adaptability</fullName>
+                <default>false</default>
+                <label>Adaptability</label>
+            </value>
+            <value>
+                <fullName>Creativity</fullName>
+                <default>false</default>
+                <label>Creativity</label>
+            </value>
+            <value>
+                <fullName>Critical Thinking</fullName>
+                <default>false</default>
+                <label>Critical Thinking</label>
+            </value>
+            <value>
+                <fullName>Project Management (for Project Manager roles)</fullName>
+                <default>false</default>
+                <label>Project Management (for Project Manager roles)</label>
+            </value>
+            <value>
+                <fullName>Patient Care (for Healthcare roles)</fullName>
+                <default>false</default>
+                <label>Patient Care (for Healthcare roles)</label>
+            </value>
+            <value>
+                <fullName>Financial Modeling (for Finance roles)</fullName>
+                <default>false</default>
+                <label>Financial Modeling (for Finance roles)</label>
+            </value>
+            <value>
+                <fullName>Marketing Strategy (for Marketing roles)</fullName>
+                <default>false</default>
+                <label>Marketing Strategy (for Marketing roles)</label>
+            </value>
+            <value>
+                <fullName>Customer Relationship Management (for Sales roles)</fullName>
+                <default>false</default>
+                <label>Customer Relationship Management (for Sales roles)</label>
+            </value>
+            <value>
+                <fullName>PMP (Project Management Professional)</fullName>
+                <default>false</default>
+                <label>PMP (Project Management Professional)</label>
+            </value>
+            <value>
+                <fullName>Certified ScrumMaster</fullName>
+                <default>false</default>
+                <label>Certified ScrumMaster</label>
+            </value>
+            <value>
+                <fullName>AWS Certified Solutions Architect</fullName>
+                <default>false</default>
+                <label>AWS Certified Solutions Architect</label>
+            </value>
+            <value>
+                <fullName>Google Analytics Certification</fullName>
+                <default>false</default>
+                <label>Google Analytics Certification</label>
+            </value>
+            <value>
+                <fullName>Microsoft Certified: Azure Administrator Associate</fullName>
+                <default>false</default>
+                <label>Microsoft Certified: Azure Administrator Associate</label>
+            </value>
+            <value>
+                <fullName>Certified Data Scientist</fullName>
+                <default>false</default>
+                <label>Certified Data Scientist</label>
+            </value>
+            <value>
+                <fullName>Salesforc Certifications</fullName>
+                <default>false</default>
+                <label>Salesforc Certifications</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

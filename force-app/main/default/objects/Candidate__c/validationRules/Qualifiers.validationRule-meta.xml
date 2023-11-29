@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qualifiers</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( ISPICKVAL( Conflict_Of_Interest__c , &apos;Yes&apos;),
+ISPICKVAL( Criminal_History__c , &apos;Yes&apos;),
+ISPICKVAL( Legal_Right_to_Work__c , &apos;No&apos;),
+ISPICKVAL( Regulatory_Discipline_History__c , &apos;Yes&apos;),
+ISPICKVAL( Screening_Acceptance__c , &apos;No&apos;))</errorConditionFormula>
+    <errorMessage>Please check qualifiers fields.</errorMessage>
+</ValidationRule>
